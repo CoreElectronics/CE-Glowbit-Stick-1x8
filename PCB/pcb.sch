@@ -1,0 +1,528 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "GlowBit Stick 1x8"
+Date "2021-09-14"
+Rev "10"
+Comp ""
+Comment1 "Designed at Core Electronics by Brenton Schulz"
+Comment2 "GlowBit and the GlowBit logo are trademarks of Core Electronics Pty Ltd."
+Comment3 "License: CCASAv4.0 https://creativecommons.org/licenses/by-sa/4.0/"
+Comment4 ""
+$EndDescr
+$Comp
+L LED:WS2812B D5
+U 1 1 6119B554
+P 5450 3150
+F 0 "D5" H 5500 3400 50  0000 L CNN
+F 1 "WS2812B" H 5500 2850 50  0000 L CNN
+F 2 "CoreElectronics_Components:LED_GlowBit_WS2812B_NoSilk" H 5500 2850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5550 2775 50  0001 L TNN
+	1    5450 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 6119D017
+P 5450 2750
+F 0 "#PWR?" H 5450 2600 50  0001 C CNN
+F 1 "VCC" H 5465 2923 50  0000 C CNN
+F 2 "" H 5450 2750 50  0001 C CNN
+F 3 "" H 5450 2750 50  0001 C CNN
+	1    5450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6119D2E7
+P 5450 3550
+F 0 "#PWR?" H 5450 3300 50  0001 C CNN
+F 1 "GND" H 5455 3377 50  0000 C CNN
+F 2 "" H 5450 3550 50  0001 C CNN
+F 3 "" H 5450 3550 50  0001 C CNN
+	1    5450 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2850 5450 2750
+Wire Wire Line
+	5450 3450 5450 3550
+$Comp
+L LED:WS2812B D1
+U 1 1 6119F433
+P 4550 3150
+F 0 "D1" H 4600 3400 50  0000 L CNN
+F 1 "WS2812B" H 4600 2850 50  0000 L CNN
+F 2 "CoreElectronics_Components:LED_GlowBit_WS2812B_NoSilk" H 4600 2850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4650 2775 50  0001 L TNN
+	1    4550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 6119F4D1
+P 4550 2750
+F 0 "#PWR?" H 4550 2600 50  0001 C CNN
+F 1 "VCC" H 4565 2923 50  0000 C CNN
+F 2 "" H 4550 2750 50  0001 C CNN
+F 3 "" H 4550 2750 50  0001 C CNN
+	1    4550 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6119F4DB
+P 4550 3550
+F 0 "#PWR?" H 4550 3300 50  0001 C CNN
+F 1 "GND" H 4555 3377 50  0000 C CNN
+F 2 "" H 4550 3550 50  0001 C CNN
+F 3 "" H 4550 3550 50  0001 C CNN
+	1    4550 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2850 4550 2750
+Wire Wire Line
+	4550 3450 4550 3550
+$Comp
+L LED:WS2812B D13
+U 1 1 611A06DB
+P 7250 3150
+F 0 "D13" H 7300 3400 50  0000 L CNN
+F 1 "WS2812B" H 7300 2850 50  0000 L CNN
+F 2 "CoreElectronics_Components:LED_GlowBit_WS2812B_NoSilk" H 7300 2850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7350 2775 50  0001 L TNN
+	1    7250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 611A07B7
+P 7250 2750
+F 0 "#PWR?" H 7250 2600 50  0001 C CNN
+F 1 "VCC" H 7265 2923 50  0000 C CNN
+F 2 "" H 7250 2750 50  0001 C CNN
+F 3 "" H 7250 2750 50  0001 C CNN
+	1    7250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611A07C1
+P 7250 3550
+F 0 "#PWR?" H 7250 3300 50  0001 C CNN
+F 1 "GND" H 7255 3377 50  0000 C CNN
+F 2 "" H 7250 3550 50  0001 C CNN
+F 3 "" H 7250 3550 50  0001 C CNN
+	1    7250 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 2850 7250 2750
+Wire Wire Line
+	7250 3450 7250 3550
+$Comp
+L LED:WS2812B D9
+U 1 1 611A07CD
+P 6350 3150
+F 0 "D9" H 6400 3400 50  0000 L CNN
+F 1 "WS2812B" H 6400 2850 50  0000 L CNN
+F 2 "CoreElectronics_Components:LED_GlowBit_WS2812B_NoSilk" H 6400 2850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6450 2775 50  0001 L TNN
+	1    6350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 611A07D7
+P 6350 2750
+F 0 "#PWR?" H 6350 2600 50  0001 C CNN
+F 1 "VCC" H 6365 2923 50  0000 C CNN
+F 2 "" H 6350 2750 50  0001 C CNN
+F 3 "" H 6350 2750 50  0001 C CNN
+	1    6350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611A07E1
+P 6350 3550
+F 0 "#PWR?" H 6350 3300 50  0001 C CNN
+F 1 "GND" H 6355 3377 50  0000 C CNN
+F 2 "" H 6350 3550 50  0001 C CNN
+F 3 "" H 6350 3550 50  0001 C CNN
+	1    6350 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2850 6350 2750
+Wire Wire Line
+	6350 3450 6350 3550
+$Comp
+L LED:WS2812B D6
+U 1 1 611AB61B
+P 5450 4550
+F 0 "D6" H 5500 4800 50  0000 L CNN
+F 1 "WS2812B" H 5500 4250 50  0000 L CNN
+F 2 "CoreElectronics_Components:LED_GlowBit_WS2812B_NoSilk" H 5500 4250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5550 4175 50  0001 L TNN
+	1    5450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 611AB643
+P 5450 4150
+F 0 "#PWR?" H 5450 4000 50  0001 C CNN
+F 1 "VCC" H 5465 4323 50  0000 C CNN
+F 2 "" H 5450 4150 50  0001 C CNN
+F 3 "" H 5450 4150 50  0001 C CNN
+	1    5450 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611AB64D
+P 5450 4950
+F 0 "#PWR?" H 5450 4700 50  0001 C CNN
+F 1 "GND" H 5455 4777 50  0000 C CNN
+F 2 "" H 5450 4950 50  0001 C CNN
+F 3 "" H 5450 4950 50  0001 C CNN
+	1    5450 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4250 5450 4150
+Wire Wire Line
+	5450 4850 5450 4950
+$Comp
+L LED:WS2812B D2
+U 1 1 611AB659
+P 4550 4550
+F 0 "D2" H 4600 4800 50  0000 L CNN
+F 1 "WS2812B" H 4600 4250 50  0000 L CNN
+F 2 "CoreElectronics_Components:LED_GlowBit_WS2812B_NoSilk" H 4600 4250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4650 4175 50  0001 L TNN
+	1    4550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 611AB663
+P 4550 4150
+F 0 "#PWR?" H 4550 4000 50  0001 C CNN
+F 1 "VCC" H 4565 4323 50  0000 C CNN
+F 2 "" H 4550 4150 50  0001 C CNN
+F 3 "" H 4550 4150 50  0001 C CNN
+	1    4550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611AB66D
+P 4550 4950
+F 0 "#PWR?" H 4550 4700 50  0001 C CNN
+F 1 "GND" H 4555 4777 50  0000 C CNN
+F 2 "" H 4550 4950 50  0001 C CNN
+F 3 "" H 4550 4950 50  0001 C CNN
+	1    4550 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4250 4550 4150
+Wire Wire Line
+	4550 4850 4550 4950
+$Comp
+L LED:WS2812B D14
+U 1 1 611AB679
+P 7250 4550
+F 0 "D14" H 7300 4800 50  0000 L CNN
+F 1 "WS2812B" H 7300 4250 50  0000 L CNN
+F 2 "CoreElectronics_Components:LED_GlowBit_WS2812B_NoSilk" H 7300 4250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7350 4175 50  0001 L TNN
+	1    7250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 611AB683
+P 7250 4150
+F 0 "#PWR?" H 7250 4000 50  0001 C CNN
+F 1 "VCC" H 7265 4323 50  0000 C CNN
+F 2 "" H 7250 4150 50  0001 C CNN
+F 3 "" H 7250 4150 50  0001 C CNN
+	1    7250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611AB68D
+P 7250 4950
+F 0 "#PWR?" H 7250 4700 50  0001 C CNN
+F 1 "GND" H 7255 4777 50  0000 C CNN
+F 2 "" H 7250 4950 50  0001 C CNN
+F 3 "" H 7250 4950 50  0001 C CNN
+	1    7250 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4250 7250 4150
+Wire Wire Line
+	7250 4850 7250 4950
+$Comp
+L LED:WS2812B D10
+U 1 1 611AB699
+P 6350 4550
+F 0 "D10" H 6400 4800 50  0000 L CNN
+F 1 "WS2812B" H 6400 4250 50  0000 L CNN
+F 2 "CoreElectronics_Components:LED_GlowBit_WS2812B_NoSilk" H 6400 4250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6450 4175 50  0001 L TNN
+	1    6350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 611AB6A3
+P 6350 4150
+F 0 "#PWR?" H 6350 4000 50  0001 C CNN
+F 1 "VCC" H 6365 4323 50  0000 C CNN
+F 2 "" H 6350 4150 50  0001 C CNN
+F 3 "" H 6350 4150 50  0001 C CNN
+	1    6350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611AB6AD
+P 6350 4950
+F 0 "#PWR?" H 6350 4700 50  0001 C CNN
+F 1 "GND" H 6355 4777 50  0000 C CNN
+F 2 "" H 6350 4950 50  0001 C CNN
+F 3 "" H 6350 4950 50  0001 C CNN
+	1    6350 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4250 6350 4150
+Wire Wire Line
+	6350 4850 6350 4950
+Wire Wire Line
+	4850 3150 5150 3150
+Wire Wire Line
+	5750 3150 6050 3150
+Wire Wire Line
+	6650 3150 6950 3150
+Wire Wire Line
+	6950 4550 6650 4550
+Wire Wire Line
+	6050 4550 5750 4550
+Wire Wire Line
+	5150 4550 4850 4550
+Wire Wire Line
+	4250 4550 4150 4550
+Wire Wire Line
+	4150 4550 4150 3850
+Wire Wire Line
+	4150 3850 7700 3850
+Wire Wire Line
+	7700 3850 7700 3150
+Wire Wire Line
+	7700 3150 7550 3150
+$Comp
+L power:VCC #PWR?
+U 1 1 611D1592
+P 2050 3000
+F 0 "#PWR?" H 2050 2850 50  0001 C CNN
+F 1 "VCC" H 2065 3173 50  0000 C CNN
+F 2 "" H 2050 3000 50  0001 C CNN
+F 3 "" H 2050 3000 50  0001 C CNN
+	1    2050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611D1808
+P 2050 3400
+F 0 "#PWR?" H 2050 3150 50  0001 C CNN
+F 1 "GND" H 2055 3227 50  0000 C CNN
+F 2 "" H 2050 3400 50  0001 C CNN
+F 3 "" H 2050 3400 50  0001 C CNN
+	1    2050 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3350 2050 3350
+Wire Wire Line
+	2050 3350 2050 3400
+Wire Wire Line
+	1950 3050 2050 3050
+Wire Wire Line
+	2050 3050 2050 3000
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 612416BF
+P 1750 3150
+F 0 "J1" H 1350 3200 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 1350 3050 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1750 3150 50  0001 C CNN
+F 3 "~" H 1750 3150 50  0001 C CNN
+	1    1750 3150
+	1    0    0    -1  
+$EndComp
+Text Label 2050 3250 0    50   ~ 0
+Din
+Text Label 2050 3150 0    50   ~ 0
+Dout
+Wire Wire Line
+	1950 3150 2050 3150
+Wire Wire Line
+	1950 3250 2050 3250
+Text Label 3850 3150 2    50   ~ 0
+Din
+Text Label 7750 4550 0    50   ~ 0
+Dout
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 6126014C
+P 3350 3150
+F 0 "J3" H 3200 3250 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2950 3150 50  0000 C CNN
+F 2 "lib:3-pin-pads" H 3350 3150 50  0001 C CNN
+F 3 "~" H 3350 3150 50  0001 C CNN
+	1    3350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 61260886
+P 8350 4550
+F 0 "J4" H 8322 4574 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 8322 4483 50  0000 R CNN
+F 2 "lib:3-pin-pads" H 8350 4550 50  0001 C CNN
+F 3 "~" H 8350 4550 50  0001 C CNN
+	1    8350 4550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 4550 8150 4550
+Wire Wire Line
+	3550 3150 4250 3150
+$Comp
+L power:VCC #PWR?
+U 1 1 612646B9
+P 3650 3000
+F 0 "#PWR?" H 3650 2850 50  0001 C CNN
+F 1 "VCC" H 3665 3173 50  0000 C CNN
+F 2 "" H 3650 3000 50  0001 C CNN
+F 3 "" H 3650 3000 50  0001 C CNN
+	1    3650 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3050 3650 3050
+Wire Wire Line
+	3650 3050 3650 3000
+$Comp
+L power:GND #PWR?
+U 1 1 61266496
+P 3650 3300
+F 0 "#PWR?" H 3650 3050 50  0001 C CNN
+F 1 "GND" H 3655 3127 50  0000 C CNN
+F 2 "" H 3650 3300 50  0001 C CNN
+F 3 "" H 3650 3300 50  0001 C CNN
+	1    3650 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3250 3650 3250
+Wire Wire Line
+	3650 3250 3650 3300
+$Comp
+L power:GND #PWR?
+U 1 1 61267CA4
+P 8050 4700
+F 0 "#PWR?" H 8050 4450 50  0001 C CNN
+F 1 "GND" H 8055 4527 50  0000 C CNN
+F 2 "" H 8050 4700 50  0001 C CNN
+F 3 "" H 8050 4700 50  0001 C CNN
+	1    8050 4700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4650 8050 4650
+Wire Wire Line
+	8050 4650 8050 4700
+$Comp
+L power:VCC #PWR?
+U 1 1 61269E5D
+P 8050 4400
+F 0 "#PWR?" H 8050 4250 50  0001 C CNN
+F 1 "VCC" H 8065 4573 50  0000 C CNN
+F 2 "" H 8050 4400 50  0001 C CNN
+F 3 "" H 8050 4400 50  0001 C CNN
+	1    8050 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 4400 8050 4450
+Wire Wire Line
+	8050 4450 8150 4450
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 6139A7A4
+P 6000 6500
+F 0 "FID1" H 6085 6546 50  0000 L CNN
+F 1 "Fiducial" H 6085 6455 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 6000 6500 50  0001 C CNN
+F 3 "~" H 6000 6500 50  0001 C CNN
+	1    6000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 6139AD5A
+P 6000 6750
+F 0 "FID2" H 6085 6796 50  0000 L CNN
+F 1 "Fiducial" H 6085 6705 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 6000 6750 50  0001 C CNN
+F 3 "~" H 6000 6750 50  0001 C CNN
+	1    6000 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CoreElectronics_Artwork:LOGO_CoreElectronics_made-with-love #G?
+U 1 1 61405894
+P 10500 6300
+F 0 "#G?" H 10500 6094 60  0001 C CNN
+F 1 "LOGO_CoreElectronics_made-with-love" H 10500 6506 60  0001 C CNN
+F 2 "" H 10500 6300 50  0001 C CNN
+F 3 "" H 10500 6300 50  0001 C CNN
+	1    10500 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO?
+U 1 1 61406A5A
+P 10900 6850
+F 0 "#LOGO?" H 10900 7125 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10900 6625 50  0001 C CNN
+F 2 "" H 10900 6850 50  0001 C CNN
+F 3 "~" H 10900 6850 50  0001 C CNN
+	1    10900 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CoreElectronics_Artwork:LOGO_GlowBit #G?
+U 1 1 61409FEA
+P 8350 6200
+F 0 "#G?" H 8350 5924 50  0001 C CNN
+F 1 "LOGO_GlowBit" H 8350 6476 50  0001 C CNN
+F 2 "" H 8350 6200 50  0001 C CNN
+F 3 "" H 8350 6200 50  0001 C CNN
+	1    8350 6200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
